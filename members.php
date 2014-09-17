@@ -14,37 +14,30 @@ $members_array = array(
 <!DOCTYPE html>
 <html lang="en">
    <?php include('head.php') ?>
+   <link rel="stylesheet" href="css/members.css" />
   <body>
     <?php $members = true ?>
     <?php include('navbar.php') ?>
 
     <!-- Begin page content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="page-header">
-            <h1 class="text-center">Members</h1>
-          </div>
 
-          <div class="lead">
+          <section class="members">
+            <h1 class="text-center title">Members</h1>
             <?php foreach($members_array as $member): ?>
-              <div class="row">
-                <div class="col-xs-12">
-                  <img src="images/<?php echo $member['img'] ?>" alt="<?php echo $member['name'] ?>" 
-                    class="responsive-img col-xs-12 col-sm-4">  
-                  <br>
-                  <h3 class="col-xs-12 col-sm-8 text-center">
-                    <?php echo $member['name'] ?><br>
-                    <small><?php echo $member['position'] ?></small>
-                  </h3>
-                </div>
-              </div>
-              <hr>
+              <figure class="member-card">
+                <img 
+                  src="images/<?php echo $member['img'] ?>" 
+                  alt="<?php echo $member['name'] ?>"
+                  class="member-card__image"
+                >
+                <br>
+                <h3>
+                  <?php echo $member['name'] ?><br>
+                  <small><?php echo $member['position'] ?></small>
+                </h3>
+              </figure>
             <?php endforeach ?>
-          </div>
-        </div>
-      </div>
-    </div>
+          </section>
 
     <?php include('footer.php') ?>
     <?php include('javascript.php') ?>

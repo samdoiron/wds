@@ -19,26 +19,34 @@ $members_array = array(
     <?php $members = true ?>
     <?php include('navbar.php') ?>
 
-    <!-- Begin page content -->
-
-    <section class="members">
-        <h1 class="text-center title">Members</h1>
-        <?php foreach($members_array as $member): ?>
-          <figure class="member-card">
-            <img 
-              src="images/<?php echo $member['img'] ?>" 
-              alt="<?php echo $member['name'] ?>"
-              class="member-card__image"
-            >
-            <br>
-            <h3>
-              <?php echo $member['name'] ?><br>
-              <small><?php echo $member['position'] ?></small>
-            </h3>
-          </figure>
-      <?php endforeach ?>
-    </section>
-
+		<!-- Begin page content -->
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="page-header">
+						<h1 class="text-center">Members</h1>
+					</div>
+				
+					<div class="lead">
+						<?php foreach(array_chunk($members_array,3) as $three_members): ?>
+							<div class="row">
+								<?php foreach ($three_members as $member): ?>
+									<div class="col-xs-12 col-md-4">
+									<img src="images/<?php echo $member['img'] ?>" alt="<?php echo $member['name'] ?>" 
+										class="responsive-img col-xs-12">	
+									<br>
+									<h3 class="col-xs-12 text-center">
+										<?php echo $member['name'] ?><br>
+										<small><?php echo $member['position'] ?></small>
+									</h3>
+								</div>
+								<?php endforeach ?>
+							</div>
+						<?php endforeach ?>
+					</div>
+				</div>
+			</div>
+		</div>
     <?php include('footer.php') ?>
     <?php include('javascript.php') ?>
   </body>

@@ -19,7 +19,7 @@
 					<p class="lead">
 						<form id="email-form" action="email.php" method="POST" role="form">
 							<div class="form-group">
-								<label class="control-label" for="email">Email Address:</label>
+								<label class="control-label" for="email">Email From:</label>
 								<input type="email" id="email" placeholder="Email Address" 
 									class="form-control" required>
 							</div>

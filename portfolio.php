@@ -2,12 +2,11 @@
 
 $projects_array = array(
 	array(
-		"name" => "Project Manager",
+		"name" => "Project Manager (Open Source)",
 		"description" => "Complete Agile Development Project Management System",
 		"img" => array(
 			array("title" => "Login Page", "src" => "project-manager-login.png"),
-			array("title" => "New Project", "src" => "project-manager-new-project.png"),
-			array("title" => "Login Page", "src" => "project-manager-login.png")
+			array("title" => "New Project", "src" => "project-manager-new-project.png")
 		),
 		"link" => "https://github.com/websociety/project-manager"
 	),
@@ -37,12 +36,12 @@ $projects_array = array(
 								<div class="row text-center">
 									<div class="col-xs-12">
 										<div class="row">
-											<?php for($i = 0; $i < 3; $i++): ?>
+											<?php for($i = 0; $i < count($project['img']); $i++): ?>
 												<a href="images/<?php echo $project['img'][$i]['src'] ?>" 
 													data-toggle="lightbox" 
 													data-gallery="<?php echo str_replace(" ","_",$project['name']) ?>"
 													data-title="<?php echo $project['img'][$i]['title'] ?>" 
-													class="thumbnail col-xs-4">
+													class="thumbnail col-xs-<?php echo 12.0 / count($project['img']) ?>">
 													<img src="images/<?php echo $project['img'][$i]['src'] ?>" alt="<?php echo $project['img'][$i]['title'] ?>">
 												</a>
 											<?php endfor ?>

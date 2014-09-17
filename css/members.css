@@ -6,6 +6,11 @@
   margin-top: 5rem;
 }
 
+.members-inner {
+  margin: 0 auto;
+  text-align: left;
+}
+
 .title {
   padding: 5rem;
 }

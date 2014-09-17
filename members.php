@@ -21,25 +21,23 @@ $members_array = array(
 
     <!-- Begin page content -->
 
-          <section class="members">
-            <div class="members-inner"></div>
-              <h1 class="text-center title">Members</h1>
-              <?php foreach($members_array as $member): ?>
-                <figure class="member-card">
-                  <img 
-                    src="images/<?php echo $member['img'] ?>" 
-                    alt="<?php echo $member['name'] ?>"
-                    class="member-card__image"
-                  >
-                  <br>
-                  <h3>
-                    <?php echo $member['name'] ?><br>
-                    <small><?php echo $member['position'] ?></small>
-                  </h3>
-                </figure>
-              </div>
-            <?php endforeach ?>
-          </section>
+    <section class="members">
+        <h1 class="text-center title">Members</h1>
+        <?php foreach($members_array as $member): ?>
+          <figure class="member-card">
+            <img 
+              src="images/<?php echo $member['img'] ?>" 
+              alt="<?php echo $member['name'] ?>"
+              class="member-card__image"
+            >
+            <br>
+            <h3>
+              <?php echo $member['name'] ?><br>
+              <small><?php echo $member['position'] ?></small>
+            </h3>
+          </figure>
+      <?php endforeach ?>
+    </section>
 
     <?php include('footer.php') ?>
     <?php include('javascript.php') ?>

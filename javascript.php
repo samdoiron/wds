@@ -6,3 +6,5 @@
 <script src="js/lightbox.js"></script>
 <script src="js/email.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/showdown.js"></script>
+<script src="js/translatemarkdown.js"></script>

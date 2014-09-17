@@ -17,6 +17,7 @@
 				<li <?php if (isset($portfolio)) echo 'class="active"'; ?>><a href="portfolio">Portfolio</a></li>
 				<li <?php if (isset($members)) echo 'class="active"'; ?>><a href="members">Members</a></li>
 				<li <?php if (isset($contact)) echo 'class="active"'; ?>><a href="contact">Contact</a></li>
+				<li <?php if (isset($tutorials)) echo 'class="active"'; ?>><a href="tutorials">Tutorials</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>

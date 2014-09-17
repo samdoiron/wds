@@ -6,14 +6,13 @@
   margin-top: 5rem;
 }
 
-
 .title {
   padding: 5rem;
 }
 
 .member-card {
   display: inline-block;
-  width: 30rem;
+  max-width: 30rem;
   text-align: center;
   margin-bottom: 5rem;
 }

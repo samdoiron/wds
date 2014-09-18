@@ -10,7 +10,7 @@ function formatFileName($fileName) {
 <html lang="en">
    <?php include('head.php') ?>
   <body>
-    <?php $members = true ?>
+    <?php $tutorials = true ?>
     <?php include('navbar.php') ?>
 
     <div class="container">

@@ -14,7 +14,6 @@ $members_array = array(
 <!DOCTYPE html>
 <html lang="en">
    <?php include('head.php') ?>
-   <link rel="stylesheet" href="css/members.css" />
   <body>
     <?php $members = true ?>
     <?php include('navbar.php') ?>

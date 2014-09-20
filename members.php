@@ -7,7 +7,8 @@ $members_array = array(
   array("name" => "Kyle Asaff", "position" => "Member", "img" => "kyle.jpg"),
   array("name" => "Matthew Coelho", "position" => "Member", "img" => "coelho.jpg"),
   array("name" => "Terry Lin", "position" => "Member", "img" => "terry.jpg"),
-  array("name" => "Brenden Krochko", "position" => "Member", "img" => "brenden.jpg")
+  array("name" => "Brenden Krochko", "position" => "Member", "img" => "brenden.jpg"),
+  array("name" => "Sam Doiron", "position" => "Member", "img" => "sam.jpg")
 );
 
 ?>

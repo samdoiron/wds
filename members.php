@@ -1,22 +1,23 @@
 <?php 
 
 $members_array = array(
-	array("name" => "Andrey Kulakevich", "position" => "President", "img" => "andrey.jpg"),
-	array("name" => "Tyler Pachal", "position" => "Vice-President", "img" => "tyler.jpg"),
-	array("name" => "Gilberto De Melo", "position" => "Treasurer", "img" => "gilberto.jpg"),
-	array("name" => "Matthew Coelho", "position" => "Secretary", "img" => "coelho.jpg"),
-	array("name" => "Kyle Asaff", "position" => "Member", "img" => "kyle.jpg"),
-	array("name" => "Terry Lin", "position" => "Member", "img" => "terry.jpg"),
-	array("name" => "Brenden Krochko", "position" => "Member", "img" => "brenden.jpg")
+  array("name" => "Andrey Kulakevich", "position" => "President", "img" => "andrey.jpg"),
+  array("name" => "Tyler Pachal", "position" => "Vice-President", "img" => "tyler.jpg"),
+  array("name" => "Gilberto De Melo", "position" => "Treasurer", "img" => "gilberto.jpg"),
+  array("name" => "Kyle Asaff", "position" => "Member", "img" => "kyle.jpg"),
+  array("name" => "Matthew Coelho", "position" => "Member", "img" => "coelho.jpg"),
+  array("name" => "Terry Lin", "position" => "Member", "img" => "terry.jpg"),
+  array("name" => "Brenden Krochko", "position" => "Member", "img" => "brenden.jpg"),
+  array("name" => "Sam Doiron", "position" => "Member", "img" => "sam.jpg")
 );
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
-	<?php include('head.php') ?>
-	<body>
-		<?php $members = true ?>
-		<?php include('navbar.php') ?>
+   <?php include('head.php') ?>
+  <body>
+    <?php $members = true ?>
+    <?php include('navbar.php') ?>
 
 		<!-- Begin page content -->
 		<div class="container">
@@ -46,8 +47,7 @@ $members_array = array(
 				</div>
 			</div>
 		</div>
-
-		<?php include('footer.php') ?>
-		<?php include('javascript.php') ?>
-	</body>
+    <?php include('footer.php') ?>
+    <?php include('javascript.php') ?>
+  </body>
 </html>

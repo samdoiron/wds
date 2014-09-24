@@ -29,7 +29,7 @@ $members_array = array(
 						<?php foreach(array_chunk($members_array,3) as $three_members): ?>
 							<div class="row">
 								<?php foreach ($three_members as $member): ?>
-									<div class="col-xs-12 col-md-4">
+									<div class="col-xs-12 col-sm-4 col-md-4">
 									<img src="images/<?php echo $member['img'] ?>" alt="<?php echo $member['name'] ?>" 
 										class="responsive-img col-xs-12">	
 									<br>

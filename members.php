@@ -2,11 +2,11 @@
 
 $members_array = array(
   array("name" => "Andrey Kulakevich", "position" => "President", "img" => "andrey.jpg"),
-  array("name" => "Tyler Pachal", "position" => "Vice-President", "img" => "tyler.jpg"),
+  array("name" => "Terry Lin", "position" => "Vice-President", "img" => "terry.jpg"),
   array("name" => "Gilberto De Melo", "position" => "Treasurer", "img" => "gilberto.jpg"),
+  array("name" => "Matthew Coelho", "position" => "Secretary", "img" => "coelho.jpg"),
+  array("name" => "Tyler Pachal", "position" => "Member", "img" => "tyler.jpg"),
   array("name" => "Kyle Asaff", "position" => "Member", "img" => "kyle.jpg"),
-  array("name" => "Matthew Coelho", "position" => "Member", "img" => "coelho.jpg"),
-  array("name" => "Terry Lin", "position" => "Member", "img" => "terry.jpg"),
   array("name" => "Brenden Krochko", "position" => "Member", "img" => "brenden.jpg"),
   array("name" => "Sam Doiron", "position" => "Member", "img" => "sam.jpg")
 );

@@ -41,3 +41,7 @@ code {
 .container {
   max-width: 768px;
 }
+
+.container > .facebook {
+    margin: auto;
+}

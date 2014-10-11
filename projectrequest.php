@@ -35,7 +35,8 @@
                     <li>Laravel (PHP Framework)</li>
                     <li>MySQL</li>
                 </ul>
-
             </div>
+            <?php include('footer.php') ?>
+            <?php include('javascript.php') ?>
         </body>
     </html>

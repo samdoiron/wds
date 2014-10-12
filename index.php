@@ -19,7 +19,18 @@
 					</p>		
 				</div>
 			</div>
+
+			<h3>Sponsors</h3>
+			<div class="row">
+				<div class="col-xs-4">
+					<a href="https://society.cs.dal.ca/">
+						<img src="images/CSSLogo.png" alt="Computer Science Society Logo" class="img-responsive">
+					</a>
+				</div>
+			</div>
+
 		</div>
+
 
 		<?php include('footer.php') ?>
 		<?php include('javascript.php') ?>
